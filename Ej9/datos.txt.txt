@@ -1,0 +1,16 @@
+Fragata
+	A 3
+vertical
+Roja
+Dragaminas
+C
+2
+horizontal
+Azulada
+Fin
+Portaaviones
+A
+1
+horizontal
+Amarillenta
+Fin
