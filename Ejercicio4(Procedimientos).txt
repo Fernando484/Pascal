@@ -1,0 +1,20 @@
+En un sistema de gráficos, la pantalla tiene coordenadas horizontales de 0 a 1024 y verticales  de 0 a 100.
+
+Un punto está definido por una coordenada x y una coordenada y. El punto [0, 0] está situado arriba a la izquierda.
+
+Un rectángulo está definido por el punto de arriba a la izquierda y el punto de abajo a la derecha, estando ambos incluídos en el rectángulo.
+
+Se desea un programa en pascal que cumpla con todo lo que sigue.
+
+El programa lee dos puntos y un rectángulo de la entrada estándar (cada coordenada aparece en una linea separada, primero los dos puntos y luego el rectángulo).
+Si alguno de los puntos o el rectángulo está mal definido, se escribe un mensaje indicándolo y se termina de ejecutar.
+Si el rectángulo tiene en la entrada el punto de abajo a la derecha antes del punto de arriba a la izquierda, el programa debe entender que los puntos del rectángulo se han dado al revés e intercambiarlos antes de continuar trabajando.
+Escriba los puntos con el formato "[x, y]", uno por línea, con el menor punto primero y el mayor punto después.
+Se considera que un punto es menor que otro si está más arriba que ese otro. Si ambos están en la misma línea horizontal, se considera que el punto más a la izquierda es menor que el otro.
+Escriba el rectángulo con el formato "[[x,y], [x,y]]", en una línea.
+Escriba si el punto 1 está en el rectángulo o no.
+Escriba si el punto 2 está en el rectángulo o no.
+Escriba el área del rectángulo
+Escriba el perímetro del rectángulo.
+Escriba el punto central del rectángulo con el formato "[x,y]", en una línea.
+Hay que utilizar procedimientos y funciones donde corresponda, tanto para leer y escribir puntos y rectángulos como para todo lo que sea preciso.

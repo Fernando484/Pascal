@@ -1,0 +1,78 @@
+Tenemos en la entrada la descripción de una serie de figuras.
+
+Todas ellas emplean coordenadas que van de 1 a 40 en horizontal y de 1 a 20 en vertical.
+
+La coordenada 1,1 está arriba a la izquierda (horizontal, vertical).
+
+Las figuras pueden ser Rectangulo, Linea o Punto. Las líneas pueden ser horizontales o verticales.
+
+Un ejemplo de rectángulo sería
+
+rectangulo # 10 10 15 20
+que indica que el rectángulo se dibuja con caracteres '#' y va del punto 10 10 al punto 15 20 (noroeste, sureste).
+
+Un ejemplo de punto sería
+
+punto X 15 20
+que indica que el punto se dibuja con un 'X' en la coordenada 15 20.
+
+Un ejemplo de línea sería
+
+linea * horizontal 10 10 5
+que indica que la línea se dibuja con '*' desde el punto 10 10, hacia la derecha, durante un total de 5 puntos.
+
+Si la línea es vertical, se dibuja hacia abajo desde el punto durante la longitud indicada al final.
+
+La entrada consiste en la descripción de una serie de figuras como se ha descrito, hasta el fin de la entrada (eof).
+
+Se desea un programa que lea dicha entrada y dibuje las figuras usando caracteres en su salida.
+
+El papel de fondo se dibuja con caracteres ´.´.
+
+
+
+Si una figura sobre-escribe otra, la última figura indicada determina el carácter que hay que dibujar en ese punto.
+
+La entrada puede contener errores. Si hay un error en la entrada, el programa debe dejar de leer y dibujar lo que se ha leído hasta ese momento.
+
+Se sugiere usar, entre otros, un tipo de datos como este:
+
+
+
+	TipoFigura = record
+		clase: TipoClaseFigura;
+		pt: TipoPunto;
+		rt: TipoRect;
+		ln: TipoLinea;
+	end;
+
+
+Como ejemplo, con esta entrada
+
+
+rectangulo * 3 3 6 5 punto
+	X 8 2
+linea # vertical 6 6 2
+punto patata
+La salida debe ser como sigue:
+
+........................................
+.......X................................
+..****..................................
+..****..................................
+..****..................................
+.....#..................................
+.....#..................................
+........................................
+........................................
+........................................
+........................................
+........................................
+........................................
+........................................
+........................................
+........................................
+........................................
+........................................
+........................................
+........................................

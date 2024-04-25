@@ -1,0 +1,13 @@
+Escribe un programa en Pascal usando las directivas de compilación
+
+{$mode objfpc}{$H-}{$R+}{$T+}{$Q+}{$V+}{$D+}{$X-}{$warnings on}
+
+que escriba las siguientes expresiones:
+
+Ver si un carácter dado podría ser parte de un identificador en Pascal.
+Ver si un carácter dado podría ser el comienzo de un identificador en Pascal.
+El doble del valor entero correspondiente a un carácter de un dígito.
+La longitud de la hipotenusa de un triángulo rectángulo dadas las longitudes de los lados, B y C.
+Si es cierto que una longitud dada, A, corresponde, o no, a la de la hipotenusa de un triángulo rectángulo con lados B y C.
+Si es cierto que tres valores enteros N1, N2 y N3 están ordenados de menor a mayor (puede haber valores repetidos).
+Si es cierto que tres caracteres C1, C2 y C3 están ordenados de menor a mayor o no.

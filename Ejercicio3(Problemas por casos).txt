@@ -1,0 +1,17 @@
+Una fecha consta de año, mes (de 1 a 12), día del mes, hora, minutos y segundos.
+
+Escribir un programa en pascal que, dadas dos fechas del mismo año (mediante constantes):
+
+- Si alguna de las fechas es inválida, escriba "fechas inválidas". Y, en otro caso...
+
+- Escriba el número total de segundos desde 1 de Enero para cada una de las fechas
+- Escriba la diferencia entre ambas fechas expresada en número de segundos
+- Escriba la diferencia entre ambas fechas expresada como XXX días, XXX horas, XXX minutos y XXX segundos.
+
+La primera fecha podría ser anterior a la segunda o posterior a ella.
+
+Utiliza constantes para los datos de partida de cada apartado.
+
+Bajo ningún concepto el programa debe leer nada de la entrada.
+
+El programa debe limitarse a escribir los valores correspondientes. Nunca literatura que describa qué se escribe en cada ocasión.

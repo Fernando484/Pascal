@@ -1,0 +1,15 @@
+Escribe un programa en Pascal usando las directivas de compilación
+
+{$mode objfpc}{$H-}{$R+}{$T+}{$Q+}{$V+}{$D+}{$X-}{$warnings on}
+
+que escriba un valor que corresponda a cada uno de los siguientes puntos. Hay que utilizar funciones donde corresponda y dividir los problemas en subproblemas donde convenga.
+
+Ver si un carácter dado podría ser parte de un identificador en Pascal.
+Ver si un carácter es alfanumérico (letra o número).
+Ver si un carácter dado podría ser el comienzo de un identificador en Pascal.
+El valor entero de un carácter que corresponde a un dígito hexadecimal entre A y F.
+La letra minúscula correspondiente a una mayúscula
+La letra mayúscula correspondiente a una minúscula
+Ver si un punto está dentro de un rectángulo, dado un punto definido por dos coordenadas (X e Y) con valores enteros entre 0 y 100, y dado un rectángulo definido por las coordenadas del punto de más arriba a la izquierda y del punto de más abajo a la derecha. (La coordenada 0, 0 está arriba a la izquierda).
+La primera solución real de una ecuación de segundo grado que tiene solución real.
+La segunda solución real de una ecuación de segundo grado que tiene solución real.

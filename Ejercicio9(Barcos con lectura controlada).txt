@@ -1,0 +1,48 @@
+Este ejercicio es el ejercicio 7, con algún cambio y con lectura controlada. Ojo a las notas respecto a qué hacer con la entrada.
+
+Tenemos un programa para jugar a hundir la flota.
+
+En el juego, hay un número indeterminado de jugadores.
+
+Cada jugador tiene un tablero con casillas. Las columnas van desde la A hasta la J. Las filas van desde la 1 hasta la 10.
+
+En el tablero se sitúan barcos, horizontales y verticales.
+
+Los barcos pueden ser Submarino (longitud 2), Dragaminas (longitud 3), Fragata (longitud 4) y Portaaviones (longitud 5).
+
+Los barcos además tienen pintura, que puede ser Roja, Azulada y Amarillenta.
+
+Un barco queda situado en el tablero por la posición de la proa (columna y fila, en ese orden) y la orientación (horizontal o vertical).
+
+Un barco horizontal va a la derecha desde la proa. Un barco vertical va hacia abajo desde la proa.
+
+En el fichero datos.txt tenemos un número indeterminado de barcos con los datos de cada barco en el orden en que se muestra en el ejemplo, seguido de la palabra Fin. Así para cada jugador. Deja de haber jugadores cuando se acaba el fichero.
+
+Asi pues, la entrada que se muestra de ejemplo corresponde a uno de los jugadores. Tras esto, podría haber otro jugador o podría terminarse el fichero. Un jugador también termina cuando se termina el fichero (aunque no tenga Fin en la entrada).
+
+
+Submarino A 3
+     horizontal
+Azulada
+Fragata
+B
+4 vertical Roja Fin
+Se pide un programa en pascal que lea la entrada y, para cada uno:
+
+Ignore los barcos mal definidos.
+Dibuje un tablero en que se muestra la posición de cada barco, con la inicial del tipo de barco, para cada uno de los jugadores.
+Si hay un error en la entrada, descarte todo lo demás que encuentre en la entrada hasta encontrar la palabra Fin o el fin de fichero. Esto es, tras un error, se ignora el resto de ese jugador, aunque hay que procesar el jugador con lo leído hasta ese momento para dicho jugador.
+Por ejemplo, con la entrada anterior para el jugador 1, el tablero mostrado para ese jugador debería ser exactamente como sigue.
+
+
+A B C D E F G H I J
+. . . . . . . . . . 1
+. . . . . . . . . . 2
+S S . . . . . . . . 3
+. F . . . . . . . . 4
+. F . . . . . . . . 5
+. F . . . . . . . . 6
+. F . . . . . . . . 7
+. . . . . . . . . . 8
+. . . . . . . . . . 9
+. . . . . . . . . . 10

@@ -1,0 +1,21 @@
+Se ha realizado una encuesta a 3 estudiantes de la Universidad Rey Juan Carlos para obtener su opinión sobre la infraestructura de los laboratorios.  
+
+De cada estudiante necesitamos saber:
+• su NIF (número y letra)
+• su edad
+• su laboratorio: el campus (Fuenlabrada, Alcorcón, Móstoles, Madrid y Aranjuez), el edificio (labI, labII, o labIII) y el aula (un número de aula)
+• su curso (sólo de 1 a 5)
+• la puntuación otorgada en la encuesta. 
+
+La puntuación de la encuesta consta de
+• una nota alfabética que se encuentra entre la A y la F que representa la puntuación total  y 
+• una nota numérica que representa la satisfacción personal. 
+
+Se pide escribir un programa que:
+
+• lea todos los datos de los estudiantes y la puntuación de las encuestas. La entrada contiene (un valor por línea) los datos de los tres estudiantes uno tras otro. Para cada estudiante se tienen los datos en el orden en que se han descrito arriba.
+• escriba los datos de cada estudiante (sin el valor de la encuesta).
+• escriba las notas de cada encuesta.
+• escriba la nota media de las puntuaciones numéricas.
+• escriba la nota alfabética más alta sabiendo que A > B > C
+• lea el nombre de un campus y escriba los datos de los estudiantes de ese campus (con la encuesta tambien).

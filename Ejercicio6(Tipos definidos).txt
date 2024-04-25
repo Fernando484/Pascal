@@ -1,0 +1,74 @@
+Tenemos un programa para jugar a hundir la flota.
+
+En el juego, un jugador tiene un tablero con casillas. Las columnas van desde la A hasta la J. Las filas van desde la 1 hasta la 10.
+
+En el tablero se sitúan barcos, horizontales y verticales.
+
+Los barcos pueden ser Submarino (longitud 2), Dragaminas (longitud 3), Fragata (longitud 4) y Portaaviones (longitud 5).
+
+Los barcos además tienen pintura, que puede ser Roja, Azulada y Amarillenta.
+
+Un barco queda situado en el tablero por la posición de la proa (columna y fila, en ese orden) y la orientación (horizontal o vertical).
+
+Un barco horizontal va a la derecha desde la proa. Un barco vertical va hacia abajo desde la proa.
+
+En la entrada estándar del programa tenemos un número indeterminado de barcos con los datos de cada barco en el orden en que se muestra en el ejemplo, seguido de la palabra Fin.
+
+
+Submarino
+A
+3
+horizontal
+Azulada
+Fragata
+B
+4
+vertical
+Roja
+Fin
+Se pide un programa en pascal que lea la entrada y
+
+Tras leer cada barco, indique si el barco está bien definido o no. Un barco mal definido es el que no está totalmente dentro del tablero. 
+Si el barco está bien definido, dibuje un tablero en que se muestra la posición de la proa, con la inicial del tipo de barco.
+Al finalizar, escriba el número total de casillas ocupadas por todos los barcos (no hay solapamiento de barcos).
+Al finalizar, escriba el número de casillas ocupadas por el menor barco del jugador y los datos del barco.
+Al finalizar, escriba el número de casillas ocupadas por el mayor barco del jugador y los datos del barco.
+Por ejemplo, con la entrada anterior, la salida debería ser exactamente como sigue:
+
+
+A B C D E F G H I J
+. . . . . . . . . . 1
+. . . . . . . . . . 2
+S . . . . . . . . . 3
+. . . . . . . . . . 4
+. . . . . . . . . . 5
+. . . . . . . . . . 6
+. . . . . . . . . . 7
+. . . . . . . . . . 8
+. . . . . . . . . . 9
+. . . . . . . . . . 10
+A B C D E F G H I J
+. . . . . . . . . . 1
+. . . . . . . . . . 2
+. . . . . . . . . . 3
+. F . . . . . . . . 4
+. . . . . . . . . . 5
+. . . . . . . . . . 6
+. . . . . . . . . . 7
+. . . . . . . . . . 8
+. . . . . . . . . . 9
+. . . . . . . . . . 10
+casillas ocupadas: 6
+menor barco:
+2 casillas. Submarino A3 horizontal con pintura Azulada
+mayor barco:
+4 casillas. Fragata B4 vertical con pintura Roja
+Se debe tener un tipo TipoJugador que guarde dentro la información de interés para el jugador (porque en el futuro pensamos tener más jugadores).
+
+No deberías intentar guardar en dicho tipo todos los barcos del jugador. Simplemente el menor y el mayor y lo que puedas necesitar.
+
+Un jugador puede tener cualquier número de barcos como se dijo. Se sugiere que leerbarco además del barco, tenga un parámetro que le indique al que lo llama si se pudo leer un barco más o si se encontró el fin.
+
+Recuerda que puedes usar un tipo enumerado que tenga los tipos de barco y además fin, para leer la entrada. Luego puedes usar un subrango para el tipo de barco.
+
+Ni que decir tiene que hay que utilizar tipos, procedimientos y funciones donde corresponda, y que hay que utilizar bucles y demás estructuras de control donde sea preciso.
